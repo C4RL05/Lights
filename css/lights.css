@@ -1,0 +1,132 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #000;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 0.1em;
+    overflow: hidden;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: red;
+}
+
+
+.lights_header
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.lights_body
+{
+    font-size: 17px;
+    line-height: 1.5em;
+}
+
+.lights_footer
+{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#lights_wrapper
+{
+    /*width: 800px;*/
+    /*height: 800px;*/
+    /*max-width: 1280px;*/
+    /*min-width: 800px;*/
+    /*max-height: 720px;*/
+    /*min-height: 600px;*/
+}
+
+#lights_logo
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -260px;
+    /*margin-top: -308px;*/
+    margin-left: -204px;
+    visibility: hidden;
+}
+
+#lights_helloenjoy
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -69px;
+    /*margin-top: -117px;*/
+    margin-left: -317px;
+    width: 640px;
+    text-align: center;
+    visibility: hidden;
+}
+
+#lights_info
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 139px;
+    /*margin-top: 91px;*/
+    margin-left: -317px;
+    width: 640px;
+    text-align: center;
+    visibility: hidden;
+}
+
+
+#lights_video
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 0;
+    margin-left: -320px;
+    width: 640px;
+    /*visibility: hidden;*/
+}
+
+#lights_fail
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -317px;
+    width: 640px;
+    text-align: center;
+    visibility: hidden;
+}
+
+#lights_credits
+{
+    position: absolute;
+    bottom: 46px;
+    right: 49px;
+    visibility: hidden;
+}
+
+#lights_share
+{
+    position: absolute;
+    bottom: 46px;
+    left: -200px;
+    visibility: hidden;
+}

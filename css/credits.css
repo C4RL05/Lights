@@ -1,0 +1,64 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: black;
+    background: url('../images/home/credits.jpg') center;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 0.1em;
+    overflow: hidden;
+    margin: 50px;
+}
+
+h1
+{
+    font-size: 17px;
+    line-height: 7px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 52px;
+    margin-bottom: 35px;
+}
+
+h2
+{
+    font-size: 14px;
+    line-height: 13px;
+    font-weight: normal;
+    margin-top: 34px;
+    text-transform: uppercase;
+
+}
+
+h3
+{
+    color: white;
+    font-size: 14px;
+    line-height: 7px;
+    font-weight: normal;
+    margin-top: 37px;
+    text-transform: uppercase;
+}
+
+h4
+{
+    color: #bbb;
+    font-size: 14px;
+    line-height: 7px;
+    font-weight: normal;
+    margin-top: 37px;
+}
+
+p
+{
+    color: #bbb;
+    font-size: 14px;
+    line-height: 7px;
+}
